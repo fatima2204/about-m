@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: gray;
+}
+.about-me .content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.about-me .content .col-right{
+    position: relative;
+    width: 50%;
+    margin-left: 150px;
+}
+.about-me .content .col-right img{
+    height: 80%;
+    border: 5px solid rosybrown;
+    box-shadow: -100px 70px 10px rgba(0,0,0,0.2);
+}
+.about-me .content .col-left h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: rosybrown;
+}
+.about-me .content .col-left p{
+    font-size: 20px;
+    width: 90%;
+}
+.mybtn{
+    width: 200px;
+    height: 50px;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 20px;
+    background-color: black;
+    cursor: pointer;
+    color: palevioletred;
+    border-radius: 30px;
+    border-color: palevioletred;
+}
+
+
+  
